@@ -1,0 +1,63 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f4;
+    color: #333;
+}
+
+header {
+    background-color: #f39ac0;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.intro, .services, .cta {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.cta {
+    background-color: #ffe5ed;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebe5b;
+}
+
+footer {
+    background-color: #f39ac0;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
