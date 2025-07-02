@@ -1,42 +1,77 @@
 /* styles.css */
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fff8f4;
     color: #333;
 }
 
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
 header {
-    background-color: #f39ac0;
+    background-color: #f8a1c4;
     color: white;
     text-align: center;
-    padding: 2rem 1rem 1rem;
+    padding: 2.5rem 1rem 1.5rem;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    font-weight: 700;
 }
 
-.intro, .services, .cta {
-    padding: 2rem 1rem;
+.tagline {
+    margin: 0.5rem 0 0;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.intro, .services, .cta, .contacto {
+    padding: 2.5rem 1rem;
     text-align: center;
 }
 
-.services ul {
+.intro .highlight {
+    font-weight: 600;
+    color: #d94e85;
+    font-size: 1.1rem;
+}
+
+.services {
+    background-color: #fff0f7;
+}
+
+.services h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.service-list {
     list-style: none;
     padding: 0;
 }
 
-.services li {
+.service-list li {
     margin: 0.5rem 0;
     font-weight: 500;
+    font-size: 1.1rem;
 }
 
 .cta {
-    background-color: #ffe5ed;
+    background-color: #fcdde6;
+}
+
+.cta h2,
+.contacto h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
 }
 
 .whatsapp-button {
@@ -47,17 +82,28 @@ header h1 {
     border-radius: 30px;
     text-decoration: none;
     font-size: 1.2rem;
+    font-weight: bold;
     transition: background-color 0.3s ease;
+    margin-top: 1rem;
 }
 
 .whatsapp-button:hover {
     background-color: #1ebe5b;
 }
 
+.contacto {
+    background-color: #fde4ec;
+}
+
 footer {
-    background-color: #f39ac0;
+    background-color: #f8a1c4;
     color: white;
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.3rem 0;
 }
